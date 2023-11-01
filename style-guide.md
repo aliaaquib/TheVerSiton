@@ -24,6 +24,7 @@ Ionicon
 ## Colors
 
 ``` css
+--main-color: hsl();
 --selective-yellow: hsl(42, 94%, 55%);
 --eerie-black-1: hsl(0, 0%, 9%);
 --eerie-black-2: hsl(180, 3%, 7%);
@@ -47,6 +48,7 @@ Ionicon
 
 ``` css
 --gradient: linear-gradient(-90deg,hsl(151, 58%, 46%) 0%,hsl(170, 75%, 41%) 100%);
+--main-gradient: linear-gradient(60deg, rgba(132,96,232,1) 0%, rgba(94,171,199,1) 100%);
 ```
 
 ## Typography

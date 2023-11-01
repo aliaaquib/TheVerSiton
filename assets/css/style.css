@@ -31,6 +31,7 @@
    */
 
   --gradient: linear-gradient(-90deg,hsl(151, 58%, 46%) 0%,hsl(170, 75%, 41%) 100%);
+  --background: -webkit-linear-gradient(#50C6BC, #9837FA);
 
   /**
    * typography
@@ -204,7 +205,10 @@ body {
 
 .section-title .span {
   display: inline-block;
-  color: var(--color);
+  background: var(--background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
 }
 
 .btn {
@@ -381,7 +385,14 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--kappel); }
+.navbar-link:is(:hover, :focus) { 
+  /* color: var(--kappel);  */
+  display: inline-block;
+  background: var(--background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
+}
 
 .overlay {
   position: fixed;
