@@ -1,125 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 
     - primary meta tag
   -->
-    <title>The VerSiton - Web3 Community</title>
-    <meta name="title" content="The VerSiton - Web3 Community" />
-    <meta name="description" content="Web3 Community website" />
+  <title>The VerSiton - Web3 Community</title>
+  <meta name="title" content="The VerSiton - Web3 Community" />
+  <meta name="description" content="Web3 Community website" />
 
-    <!-- 
+  <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-    <!-- 
+  <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
-    <!-- 
+  <!-- 
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet" />
 
-    <!-- 
+  <!-- 
     - preload images
   -->
-    <link rel="preload" as="image" href="/assets/images/hero-bg.svg" />
-    <link rel="preload" as="image" href="/assets/images/hero-banner-1.jpg" />
-    <link rel="preload" as="image" href="/assets/images/hero-banner-2.jpg" />
-    <link rel="preload" as="image" href="/assets/images/hero-shape-1.svg" />
-    <link rel="preload" as="image" href="/assets/images/hero-shape-2.png" />
-  </head>
+  <link rel="preload" as="image" href="/assets/images/hero-bg.svg" />
+  <link rel="preload" as="image" href="/assets/images/hero-banner-1.jpg" />
+  <link rel="preload" as="image" href="/assets/images/hero-banner-2.jpg" />
+  <link rel="preload" as="image" href="/assets/images/hero-shape-1.svg" />
+  <link rel="preload" as="image" href="/assets/images/hero-shape-2.png" />
+</head>
 
-  <body id="top">
-    <!-- 
+<body id="top">
+  <!-- 
     - #HEADER
   -->
 
-    <header class="header" data-header>
-      <div class="container">
-        <a href="/index.html" class="logo">
-          <img
-            src="/assets/images/logo/logo.svg"
-            width="162"
-            height="50"
-            alt="The VerSiton logo"
-          />
-        </a>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="/index.html" class="logo">
+        <img src="/assets/images/logo/logo.svg" width="162" height="50" alt="The VerSiton logo" />
+      </a>
 
-        <nav class="navbar" data-navbar>
-          <div class="wrapper">
-            <a href="/index.html" class="logo">
-              <img
-                src="/assets/images/logo/logo.svg"
-                width="162"
-                height="50"
-                alt="The VerSiton logo"
-              />
-            </a>
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="/index.html" class="logo">
+            <img src="/assets/images/logo/logo.svg" width="162" height="50" alt="The VerSiton logo" />
+          </a>
 
-            <button
-              class="nav-close-btn"
-              aria-label="close menu"
-              data-nav-toggler
-            >
-              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-            </button>
-          </div>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
 
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
-            </li>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="" class="navbar-link" data-nav-link>About</a>
-            </li>
+          <li class="navbar-item">
+            <a href="" class="navbar-link" data-nav-link>About</a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="/pages/category/category.html" class="navbar-link" data-nav-link
-                >Categories</a
-              >
-            </li>
+          <li class="navbar-item">
+            <a href="/pages/category/category.html" class="navbar-link" data-nav-link>Categories</a>
+          </li>
 
-            <li class="navbar-item">
-              <a
-                href="/pages/meetup/meetup.html"
-                class="navbar-link"
-                data-nav-link
-                >Meetups</a
-              >
-            </li>
+          <li class="navbar-item">
+            <a href="/pages/meetup/event.html" class="navbar-link" data-nav-link>Events</a>
+          </li>
 
-            <!-- <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <a href="#courses" class="navbar-link" data-nav-link>News</a>
           </li> -->
 
-            <li class="navbar-item">
-              <a href="/pages/blog/blog.html" class="navbar-link" data-nav-link
-                >Articles</a
-              >
-            </li>
+          <li class="navbar-item">
+            <a href="/pages/blog/blog.html" class="navbar-link" data-nav-link>Articles</a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Contact</a>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-        <div class="header-actions">
-          <!-- <button class="header-action-btn" aria-label="toggle search" title="Search">
+      <div class="header-actions">
+        <!-- <button class="header-action-btn" aria-label="toggle search" title="Search">
           <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
         </button>
 
@@ -129,83 +106,67 @@
           <span class="btn-badge">0</span>
         </button> -->
 
-          <a href="#" class="btn has-before">
-            <span class="span">Log In</span>
+        <a href="#" class="btn has-before">
+          <span class="span">Log In</span>
 
-            <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
-          </a>
+          <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+        </a>
 
-          <button
-            class="header-action-btn"
-            aria-label="open menu"
-            data-nav-toggler
-          >
-            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
       </div>
-    </header>
 
-    <main>
-      <article>
-        <!-- 
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
         - #ABOUT
       -->
-        <br />
+      <br />
 
-        <section class="section about" id="about" aria-label="about">
-          <div class="container">
-            <figure class="about-banner">
-              <div class="img-holder" style="--width: 520; --height: 370">
-                <img
-                  src="/assets/images/about/about-banner.png"
-                  width="520"
-                  height="370"
-                  loading="lazy"
-                  alt="about banner"
-                  class="img-cover"
-                />
-              </div>
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 520; --height: 370">
+              <img src="/assets/images/about/about-banner.png" width="520" height="370" loading="lazy"
+                alt="about banner" class="img-cover" />
+            </div>
 
-              <!-- <img src="/assets/images/about/about-shape-1.svg" width="360" height="420" loading="lazy" alt=""
+            <!-- <img src="/assets/images/about/about-shape-1.svg" width="360" height="420" loading="lazy" alt=""
               class="shape about-shape-1" /> -->
 
-              <!-- <img src="/assets/images/about/about-shape-2.svg" width="371" height="220" loading="lazy" alt=""
+            <!-- <img src="/assets/images/about/about-shape-2.svg" width="371" height="220" loading="lazy" alt=""
               class="shape about-shape-2"> -->
 
-              <img
-                src="/assets/images/about/about-shape-3.png"
-                width="722"
-                height="528"
-                loading="lazy"
-                alt=""
-                class="shape about-shape-3"
-              />
-            </figure>
+            <img src="/assets/images/about/about-shape-3.png" width="722" height="528" loading="lazy" alt=""
+              class="shape about-shape-3" />
+          </figure>
 
-            <div class="about-content">
-              <p class="section-subtitle">About Us</p>
+          <div class="about-content">
+            <p class="section-subtitle">About Us</p>
 
-              <h2 class="h2 section-title">
-                <span class="span">Web3 Junction</span> Where Beginners Meet
-                Professional's!
-              </h2>
+            <h2 class="h2 section-title">
+              <span class="span">Web3 Junction</span> Where Beginners Meet
+              Professional's!
+            </h2>
 
-              <p class="section-text">
-                At Versiton, we're on a mission to build a vibrant and inclusive
-                community for Web3 enthusiasts, united by our passion for the
-                future of the internet. Our story is one of collaboration,
-                innovation, and the relentless pursuit of a more decentralized
-                and user-centric online world.
-              </p>
+            <p class="section-text">
+              At Versiton, we're on a mission to build a vibrant and inclusive
+              community for Web3 enthusiasts, united by our passion for the
+              future of the internet. Our story is one of collaboration,
+              innovation, and the relentless pursuit of a more decentralized
+              and user-centric online world.
+            </p>
 
-              <!-- <p class="section-text">
+            <!-- <p class="section-text">
                 At the heart of Versiton are our core values, which guide every interaction and initiative within our community.           
               </p> -->
 
-              <!-- <ul class="about-list">
+            <!-- <ul class="about-list">
                 <li class="about-item">
                   <ion-icon
                     name="checkmark-done-outline"
@@ -234,22 +195,16 @@
                 </li>
               </ul> -->
 
-              <img
-                src="/assets/images/about/about-shape-4.svg"
-                width="100"
-                height="100"
-                loading="lazy"
-                alt=""
-                class="shape about-shape-4"
-              />
-            </div>
+            <img src="/assets/images/about/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4" />
           </div>
-        </section>
-        
-      </article>
-    </main>
+        </div>
+      </section>
 
-    <!-- 
+    </article>
+  </main>
+
+  <!-- 
     - #FOOTER
   -->
 
@@ -285,7 +240,7 @@
           <li>
             <a href="#" class="footer-link">Team</a>
           </li>
-          
+
           <li>
             <a href="#" class="footer-link">Gallery</a>
           </li>
@@ -361,7 +316,7 @@
             </li>
 
             <li>
-             <a href="https://www.linkedin.com/company/theversiton" class="social-link">
+              <a href="https://www.linkedin.com/company/theversiton" class="social-link">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
@@ -381,34 +336,24 @@
     </div>
   </footer>
 
-    <!-- 
+  <!-- 
     - #BACK TO TOP
   -->
 
-    <a
-      href="#top"
-      class="back-top-btn"
-      aria-label="back top top"
-      data-back-top-btn
-    >
-      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-    </a>
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
 
-    <!-- 
+  <!-- 
     - custom js link
   -->
-    <script src="/assets/js/script.js" defer></script>
+  <script src="/assets/js/script.js" defer></script>
 
-    <!-- 
+  <!-- 
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
